@@ -1,0 +1,114 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 80px;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.icon:hover {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    transform: translateY(-2px);
+}
+
+.icon:active {
+    transform: translateY(0);
+}
+
+.iconImage {
+    width: 48px;
+    height: 48px;
+    image-rendering: pixelated;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease;
+}
+
+.icon:hover .iconImage {
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.4));
+}
+
+.iconText {
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.8),
+        2px 2px 4px rgba(0, 0, 0, 0.6);
+    -webkit-font-smoothing: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 80px;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.iconContainer:hover {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    transform: translateY(-2px);
+}
+
+.iconContainer:focus {
+    background: rgba(255, 255, 255, 0.2);
+    outline: 2px dashed #ffffff;
+    outline-offset: 2px;
+}
+
+.iconContainer:active {
+    transform: translateY(0);
+}
+
+.iconPlaceholder {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    image-rendering: pixelated;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease;
+}
+
+.iconContainer:hover .icon {
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.4));
+}
+
+.label {
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.8),
+        2px 2px 4px rgba(0, 0, 0, 0.6);
+    -webkit-font-smoothing: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
