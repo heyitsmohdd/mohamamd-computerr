@@ -70,9 +70,12 @@ mohammad-computer/
 
 ## 🎯 Why This Exists
 
-Because modern web design is boring and I miss the days when computers had *personality*.
+Because modern web design is boring and I miss the days when computers had personality.
+This portfolio is a love letter to the 90s computing era when every button had a bevel, every window could be dragged, and the internet made dial-up noises.
 
-This portfolio is a love letter to the 90s computing era — when every button had a bevel, every window could be dragged, and the internet made dial-up noises.
+## 📕 NOTE:
+
+A bunch of friends asked for the code for this retro portfolio so I decided to share it here. The main repo is private (that's my playground), but I'll update this one when I can. The live site at https://mohammad-computer.vercel.app is always up-to-date. Latest (January 10, 2026): Fixed hydration errors, added CRT effects toggle, and added keyboard navigation. now all good feel free to Fork it, break it, experiment, and contribute.
 
 ## 📝 License
 
