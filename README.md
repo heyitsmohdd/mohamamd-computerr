@@ -34,10 +34,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/heyitsmohdd/mohammad-computer.git
+git clone https://github.com/heyitsmohdd/mohammad-computerr.git
 
 # Navigate to the project
-cd mohammad-computer
+cd mohammad-computerr
 
 # Install dependencies
 npm install
@@ -52,7 +52,7 @@ npm run build
 ## 📁 Project Structure
 
 ```
-mohammad-computer/
+mohammad-computerr/
 ├── src/
 │   ├── components/
 │   │   ├── apps/          # Window content (Bio, Projects, Skills, Contact)
@@ -83,7 +83,7 @@ MIT — Do whatever you want with it, just don't blame me if it makes you reinst
 
 ## 🤝 Connect
 
-- 🌐 [Live Site](https://mohammad.computer)
+- 🌐 [Live Site](https://mohammad.computer.vercel.app)
 - 🐙 [GitHub](https://github.com/heyitsmohadd)
 
 ---
